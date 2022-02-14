@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+}
+
+#about-me-div {
+  margin: 0 auto;
+  width: 90vw;
+}
+
+#about-me-div img {
+  margin: 50px 0;
+
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  #about-me-div {
+    width: 60vw;
+    height: calc(100vh - 80px);
+  }
+  
+  #about-me-div img {  
+    width: 60%;
+  }
+}
