@@ -1,0 +1,32 @@
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+}
+
+#contact-div {
+  padding: 20px;
+  height: 100vh;
+}
+
+#contact-info {
+  margin: 50px 0;
+}
+
+#contact-info .info {
+  margin: 10px 0;
+}
+
+.icon {
+  width: auto;
+  height: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  #contact-div {
+    height: 80vh;
+  }
+  
+  .icon {
+    width: auto;
+    height: 50px;
+  }
+}
